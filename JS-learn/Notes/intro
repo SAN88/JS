@@ -1,0 +1,96 @@
+
+
+---------------------------------------------------
+
+1. JS Introduction
+2. data-structures
+3. Execution contexts
+4. Functions
+5. closures
+6. _this keyword
+7. inheritance
+8. objects - depth
+9. JS weired parts
+10. JS Good parts
+11. JS design patterns
+12. JS - concurrency model and Non-Blocking IO
+13, JS - browser envi
+14. JS - NodeJS ( Introduction )
+15. ES6 - New fetures
+
+16. Unit Testing Tools ( Mocha with chai and sinon )
+
+-----------------------------------------------
+
+
+
+JS is
+
+--> scripting lang for web-pages in browser-envi
++
+--> server-side lang on NodeJS
+
+also
+
+--> mobile appln
+--> desktop appln
+
+--> command-line tools ( build , Testing Tools )
+
+
+-------------------------------------------------
+
+JS features
+
+ 
+ ---> functional programming lang
+ ---> OO lang
+
+ ---> dynamic-type lang
+ ---> supports 'closures'
+
+ ---> single-threaded lang
+ ---> supports better concurrency and non-blocking IO  with 'Event-Loop'
+
+
+-------------------------------------------------------
+
+
+JS-lang is based on 'ECMAScript spec' 
+
+latest : ECMAScript-2015 or ES-6
+
+-------------------------------------------------------
+
+
+How to execute JS-programs?
+
+--> we need 'JS-engine'
+
+browser-envi
+
+e.g
+
+chrome  --> v8(c++)
+firefox --> rhino( java )
+IE      --> chakra
+safari  --> nitro
+
+non-browser envi
+
+e.g
+
+NodeJS  --> v8
+JVM     --> rhino / nashorn
+Mongodb 
+Apache CouchDB
+Adobe
+
+-------------------------------------
+
+
+when and where to use JS-lang ?
+
+--> Event-Driven & Asynch programming. 
+
+-------------------------------------
