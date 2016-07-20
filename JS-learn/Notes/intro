@@ -2,23 +2,36 @@
 
 ---------------------------------------------------
 
+day-1
+
 1. JS Introduction
 2. data-structures
-3. Execution contexts
+3. Execution contexts ( imp )
+
+day-2
+
 4. Functions
-5. closures
+5. closures , why we need?
 6. _this keyword
+
 7. inheritance
 8. objects - depth
+
+day-3
 9. JS weired parts
 10. JS Good parts
 11. JS design patterns
 12. JS - concurrency model and Non-Blocking IO
+
+day-4
 13, JS - browser envi
 14. JS - NodeJS ( Introduction )
 15. ES6 - New fetures
 
+day-5
+
 16. Unit Testing Tools ( Mocha with chai and sinon )
+17. Jquery Intro
 
 -----------------------------------------------
 

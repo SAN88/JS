@@ -119,12 +119,12 @@ var add=function(a,b){
  * 
  * Function-Declaration Vs Function-Expression
  * 
- * Function-Declaration
+ * Function-Declaration  ( named functions )
  * ---------------------
  * 
  * --> function-obj will get created at 'context-creation' phase
  *  
- * Function-Expression
+ * Function-Expression  ( anonymous functions )
  * ---------------------
  * 
  *  --> function-obj will get created at 'context-execution' phase
