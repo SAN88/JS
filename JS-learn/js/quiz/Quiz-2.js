@@ -6,7 +6,7 @@ var trainer = {
 	name : 'Nag',
 	doTeach : function() {
 		console.log(this.name + " teaching JS");  // Nag .......
-		var self=this;
+		var self=this; // for child-context , to access obj properties
 		function doLearn() {
 			console.log(this.name+ ' learning JS from ' + self.name ); // ........ ??
 		}

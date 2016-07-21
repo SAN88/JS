@@ -13,7 +13,6 @@ day-2
 4. Functions
 5. closures , why we need?
 6. _this keyword
-
 7. inheritance
 8. objects - depth
 
@@ -26,10 +25,9 @@ day-3
 day-4
 13, JS - browser envi
 14. JS - NodeJS ( Introduction )
-15. ES6 - New fetures
+15. ES6 - New features
 
 day-5
-
 16. Unit Testing Tools ( Mocha with chai and sinon )
 17. Jquery Intro
 
