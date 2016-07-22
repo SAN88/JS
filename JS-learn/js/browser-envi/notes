@@ -1,0 +1,130 @@
+
+
+what JS-lang can do with HTML-page in browser-envi?
+
+	
+	JS-lang using Web-APIs can bring any dynamic functionality to web-page.
+	
+	e.g Web APIs
+	
+	    --> HTML DOM , XHR , Timer , etc....
+	    
+	    all Web APIs are implemented/abstracted ( as JS functions/objects ) by browsers based w3c standards.
+	
+ 	
+   using DOM API
+   -------------
+   --> can create/query/update/delete HTML elements
+   --> can change HTML element's text
+   --> can change HTML element's style
+   --> can change HTML element's attributes
+   --> can listen Events on Elements
+   --> can validate Form-Fields
+   --> can create rich UI components
+   
+   using XHR API
+   ----------------
+   
+   --> can communicate with server-side programs asynch,
+       update results in existing page ( AJAX )
+       
+   using Timer API
+   ---------------- 
+   
+   setTimeout() , setInterval()
+   
+   HTML5 APIs
+   -----------------
+   
+   --> canvas  ( drawing element )
+   --> Audio/Video
+   --> storage API
+   --> Geo
+   --> SSE
+   --> Web Worker
+   --> WS
+   --> etc....
+   
+   
+   -------------------------------------------------------------
+   
+   
+   
+   
+   JS-lang is
+   
+   --> single-threaded lang
+   --> can implement concurrency
+   --> all IO operations ( e.g AJAX call ) are 'non-blocking'
+   --> callback ( ???? )
+   
+   
+   How exactly JS-programs are executing in browser ?
+   
+   
+   ------------------------------------------------------------
+   
+   e.g chrome browser
+   
+   
+	   1. JS-Engine ( v8 )
+	   
+	      single-call-stack  --> execution-contexts are framed 
+	      heap               --> free memory for objects
+      
+       2. Web APIs
+       
+       3. callback/message-queue
+       
+       4. Event-Loop ( hero )
+   
+   
+   ------------------------------------------------------------
+   
+   
+   Front-End ( browser ) Appln ==> HTML+CSS+( JS + Web APIs ) + data ( JSON )
+   
+   -------------------------------------------------------------
+   
+   
+   
+   plain-javascript ( complete script written by you )  -  complexities
+   
+   
+   
+   --> browser compatibility
+   --> too much code even for simple operations
+   --> performance  ( e.g DOM manipulation )
+   --> memory leaks issues
+   --> code organization difficult
+   
+   
+   soln
+   -------
+   
+       JS libraries and  F.Ws
+       -----------------------
+       
+       --> jQuery
+       --> Knockout
+       
+       
+       --> Angular
+       --> React
+       
+       --> EXTJs
+       
+   ---------------------------------------
+   
+   Jquery
+   Unit Testing with jasmine/mocha
+   best practices
+   
+   
+   --------------------------------------
+   
+   
+   
+      
+       
+       
