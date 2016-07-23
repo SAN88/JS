@@ -95,3 +95,47 @@ when and where to use JS-lang ?
 --> Event-Driven & Asynch programming. 
 
 -------------------------------------
+
+
+
+  JS - Unit Testing
+  ------------------
+
+
+
+       Unit-Testing Frameworks
+       -----------------------
+       
+       1. Jasmine
+       
+       
+       2. Mocha  with chai 
+       
+       
+       -----------------------------------------
+       
+
+
+
+
+
+
+      Build Tools
+      ---------------
+      
+      1. Grunt
+      2. Gulp
+      3. WebPack
+
+
+
+
+
+
+
+
+
+
+
+
+
